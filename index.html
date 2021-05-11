@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url(images/bg-image.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="location" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button id="submit-button" type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <!-- <div id="icon"></div> -->
+            <h1 id="address-name">Dhaka</h1>
+            <h2>Latitude: <span id="lat"></span></h2>
+            <h2>Longitude: <span id="lon"></span></h2>
+            <h3>Temperature: <span id="temp"></span>K</h3>
+            <h3>Max Temperature: <span id="temp_max"></span>K</h3>
+            <h3>Min Temperature: <span id="temp-min"></span>K</h3>
+            <h4>Feel like: <span id="feel-like"></span>K</h4>
+            <h4>Pressure: <span id="pressure"></span>Pa</h4>
+            <h4>Humidity: <span id="humidity"></span></h4>
+            <h4>Sunrise: <span id="sunrise"></span></h4>
+            <h4>Sunset: <span id="sunset"></span></h4>
+            <h4>Timezone: <span id="timezone"></span></h4>
+            <h4>Clouds: <span id="clouds"></span></h4>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
